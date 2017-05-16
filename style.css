@@ -1,0 +1,237 @@
+/*
+Theme Name: Portafolio Template
+Theme URI: htt://www.apgca.cl 
+Author: Manuel Ortega Carcamo
+Author URI: http://apgca.cl
+Description: Plantilla de uso exclusivo para el portafolio de Manuel Ortega Carcamo, realizada en el curso de Open-D 
+Version: 1.0 
+*/
+
+body {
+	background-color: #f2f2f2;
+	color: #666;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-align: center; 
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 50px;
+	overflow: hidden; /* Truco para que respete a los float */
+	text-align: left;
+}
+
+/********************************************************/
+.header{     
+	background-color: #000;
+	min-height: 40px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+/********************************************************/
+.txtico{ margin-right: 3px; }
+
+.logo{
+	float:left;
+	min-width: 200px;
+	background-size: 100% auto;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal; 
+}
+.logo h1{      
+	font-weight: 300; 
+	margin:0; 
+	margin-left: 10px; 
+	font-size: 1.5em; 
+	padding: 10px 5px; 
+}
+.logo h1 span{ font-weight: 500; color: #fff; }
+
+
+/********************************************************/
+.menu{ 
+	position: absolute; 
+ 	color:#fff; 
+ 	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+.menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #cee;
+}
+
+/********************************************************/
+.nav {
+	font-size:14px;
+    color: #fff;
+    font-weight: 300;
+}
+.nav-list {
+  
+}
+.nav-item {
+  float:center;
+  *display:inline;
+  zoom:1;
+}
+.nav-item a {
+  display:block;
+  padding:0px 20px;
+  color:#FFF;
+}
+.nav-item a:hover { color:#fff; border-bottom: 2px solid #cee;}
+
+/********************************************************/
+
+
+
+
+
+
+
+/********************************************************/
+.slide{
+ 	min-height: 290px;
+	background: url(img/fondoHeader.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: contain;
+	background-position: 50% -147%;
+	position: relative;
+	z-index: 0;
+ }
+ .slide h2{ 
+ 	position: absolute; 
+ 	color:#fff; 
+ 	font-weight: 300; 
+ 	left: 50%;
+    top: 50%;
+    font-size: 3em;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 3;
+ }
+ .tranparencia{ 
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	left: 0;
+    top: 0;
+	background-color: rgb(55,64,70); opacity: 0.9;
+	background-color: rgba(55,64,70, 0.9);
+    z-index: 0;
+ }
+/********************************************************/
+ .btn { 
+
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    vertical-align: top;
+	
+	padding: 0;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	position: absolute;
+	left: 50%;
+    top: 85%;
+	border: 0;
+	border-bottom: 2px solid #219d55;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #219d55;
+	box-shadow: inset 0 -2px #219d55;
+   
+ }
+ .btn-verde{
+
+ 	
+ 	z-index: 3;
+ 	color:#fff;
+ 	background: #27ae60;
+ 	width: 200px;
+ 	height: 45px;
+	font-size: 18px;
+ }
+  .btn-proyecto{
+ 	color:#fff;
+ 	background: #27ae60;
+ 	width: 80%;
+ 	height: 25px;
+	font-size: 12px;
+	display: block;
+ }
+/********************************************************/
+ .content{
+ 	margin: 0 auto;
+ 	max-width: 1124px;
+ 	/*max-width: 100%;*/
+ 	min-height: 200px;
+ 	background-color: #f2f2f2;
+ 	padding: 10px 0;
+ 
+
+
+ }
+/********************************************************/
+
+.card{
+	display: inline-block;
+	background-color: #fff;
+    margin-bottom: 1.6rem;
+    min-height: 100px;
+    width: 173px;
+    margin-left: 10px;
+
+}
+.card-image {
+	min-height: 100px;
+	background-color: #eee;
+}
+	.card-image img {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+	}
+
+.card-content {
+	position: relative;
+	padding: 5px 10px;
+	min-height: 100px;
+}
+
+.card-content h6 {
+	margin: 0;
+}
+
+
+
+.radius{
+	    border-radius: 2px;
+} 
+.shadow{
+	box-shadow: 0 1px 3px rgba(0,0,0, 0.12), 0 1px 2px rgba(0,0,0, 0.24);
+}
+
+/********************************************************/
+
+.footer{
+	min-height: 40px;
+    background-color: #374046;
+    width: 100%;
+	border-top: 2px solid #000;
+	position: absolute;
+	bottom: 0;
+}
